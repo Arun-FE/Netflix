@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+
+    <!-- Bootstrap 4.5 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      /* Additional minor styles if needed */
+      .bg-black {
+        background-color: #000 !important;
+      }
+      .divider {
+        height: 8px;
+        background-color: #222;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body class="bg-dark">
+    <!-- Navbar -->
+    <nav
+      class="navbar fixed-top px-3 d-flex justify-content-between align-items-center"
+      style="background-color: black; height: 60px"
+    >
+      <a class="navbar-brand h1" href="#">
+        <img
+          src="netflixpicture.jfif"
+          alt="Netflix Logo"
+          style="height: 40px; width: 150px"
+        />
+      </a>
+
+      <div class="d-flex align-items-center">
+        <select
+          class="custom-select bg-dark text-center text-white pb-1 border-light mr-2"
+          style="width: 120px; height: 32px"
+        >
+          <option selected>English</option>
+        </select>
+        <button class="btn btn-danger btn-sm">Sign In</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="position-relative d-flex flex-column justify-content-center align-items-center text-center text-white px-3 overflow-hidden"
+      style="
+        height: 600px;
+        background: url('netflixbackground.jfif') center center / cover
+          no-repeat;
+      "
+    >
+      <!-- Black Transparent Overlay -->
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="background-color: rgba(0, 0, 0, 0.6); z-index: 1"
+      ></div>
+
+      <!-- Content -->
+      <div style="z-index: 2; position: relative">
+        <h1 class="display-4 font-weight-bold" style="font-size: 60px">
+          Unlimited movies, TV<br />
+          shows and more.
+        </h1>
+        <p class="lead">Watch anywhere. Cancel anytime.</p>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+
+        <form
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-3"
+          style="max-width: 700px; margin: 0 auto"
+        >
+          <input
+            type="email"
+            class="form-control mb-2 mb-md-0 mr-md-2"
+            style="flex: 1; min-width: 250px"
+            placeholder="Email Address"
+          />
+          <button class="btn btn-danger">Get Started &gt;</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Feature Sections -->
+    <section
+      class="d-flex flex-column flex-md-row align-items-center justify-content-between p-5 bg-black text-white"
+    >
+      <div class="text-center text-md-left mb-4 mb-md-0">
+        <h2>Enjoy on your TV</h2>
+        <p>
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.
+        </p>
+      </div>
+      <div>
+        <img
+          class="img-fluid"
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+          alt="TV Viewing"
+        />
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section
+      class="d-flex flex-column flex-md-row align-items-center justify-content-between p-5 bg-black text-white"
+    >
+      <div>
+        <img
+          class="img-fluid"
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+          alt="Mobile Download"
+        />
+      </div>
+      <div class="text-center text-md-left mt-4 mt-md-0">
+        <h2>Download your shows to watch offline</h2>
+        <p>Save your favourites easily and always have something to watch.</p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section
+      class="d-flex flex-column flex-md-row align-items-center justify-content-between p-5 bg-black text-white"
+    >
+      <div class="text-center text-md-left mb-4 mb-md-0">
+        <h2>Watch everywhere</h2>
+        <p>
+          Stream unlimited movies and TV shows on your phone, tablet, laptop,
+          and TV.
+        </p>
+      </div>
+      <div>
+        <img
+          class="img-fluid"
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+          alt="Devices"
+        />
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section
+      class="d-flex flex-column flex-md-row align-items-center justify-content-between p-5 bg-black text-white"
+    >
+      <div>
+        <img
+          class="img-fluid"
+          src="https://occ-0-6335-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+          alt="Kids Profile"
+        />
+      </div>
+      <div class="text-center text-md-left mt-4 mt-md-0">
+        <h2>Create profiles for kids</h2>
+        <p>
+          Send children on adventures with their favourite characters in a space
+          made just for them—free with your membership.
+        </p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- FAQ Section -->
+    <section class="text-center py-5 bg-black text-white">
+      <h2>Frequently Asked Questions</h2>
+
+      <ul
+        class="list-group list-group-flush text-left mt-4 mx-auto"
+        style="max-width: 800px"
+      >
+        <li class="list-group-item bg-dark text-white">What is Netflix?</li>
+        <li class="list-group-item bg-dark text-white">
+          How much does Netflix cost?
+        </li>
+        <li class="list-group-item bg-dark text-white">Where can I watch?</li>
+        <li class="list-group-item bg-dark text-white">How do I cancel?</li>
+        <li class="list-group-item bg-dark text-white">
+          What can I watch on Netflix?
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          Is Netflix good for kids?
+        </li>
+      </ul>
+
+      <div class="mt-4">
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="d-flex justify-content-center flex-wrap">
+          <input
+            type="email"
+            class="form-control w-50 mr-md-2 mb-2"
+            placeholder="Email Address"
+          />
+          <button class="btn btn-danger mb-2">Get Started &gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white p-4">
+      <p>Questions? Call <a href="#" class="text-white">000-800-919-1694</a></p>
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#" class="d-block text-white">FAQ</a>
+          <a href="#" class="d-block text-white">Investor Relations</a>
+          <a href="#" class="d-block text-white">Privacy</a>
+          <a href="#" class="d-block text-white">Speed Test</a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="d-block text-white">Help Centre</a>
+          <a href="#" class="d-block text-white">Jobs</a>
+          <a href="#" class="d-block text-white">Cookie Preferences</a>
+          <a href="#" class="d-block text-white">Legal Notices</a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="d-block text-white">Account</a>
+          <a href="#" class="d-block text-white">Ways to Watch</a>
+          <a href="#" class="d-block text-white">Corporate Information</a>
+          <a href="#" class="d-block text-white">Only on Netflix</a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="d-block text-white">Media Centre</a>
+          <a href="#" class="d-block text-white">Terms of Use</a>
+          <a href="#" class="d-block text-white">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <select class="custom-select w-auto bg-dark text-white border-light">
+          <option selected>English</option>
+        </select>
+      </div>
+
+      <p class="mt-3 text-muted">Netflix India</p>
+    </footer>
+
+    <!-- Bootstrap JS (Optional, if needed for dropdowns) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
